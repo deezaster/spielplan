@@ -1,7 +1,7 @@
 <?php
-   // --- Test x3m_Schedule() -------------------------------------------------
+   // --- Test x3m_Spielplan() -------------------------------------------------
    $teams_cnt     = 4;
-   $Spielplan     = x3m_Schedule($teams_cnt, date("Ymd"), 7, true);
+   $Spielplan     = x3m_Spielplan($teams_cnt, date("Ymd"), 7, true);
    
    $spieltage_cnt = count($Spielplan);
    echo "<h1>Spielplan</h1>";
@@ -37,7 +37,7 @@
    * @copyright  Copyright (c) 1996 - 2007, Xtreme Software GmbH, Switzerland (www.x3m.ch)
    * @license    http://www.opensource.org/licenses/bsd-license.php  BSD License
    */
-    function x3m_Schedule($intTeams = 4, $intStartDate = 20070101, $intDayOffset = 7, $blnSecondRound = true) {
+    function x3m_Spielplan($intTeams = 4, $intStartDate = 20070101, $intDayOffset = 7, $blnSecondRound = true) {
 
    
       // nur gerade Anzahl Teams erlaubt
