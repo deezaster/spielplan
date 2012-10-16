@@ -19,7 +19,8 @@ Um so fröhlicher war ich, als ich beim "googlen" auf die Webseite: <a href="htt
 
 Beschreibung
 -------------
-Der Aufruf der statischen Methode build() erstellt gemäss den Parameter (Anzahl Teams, mit oder ohne Rückrunde...etc.) den gewünschten Spielplan:
+###Aufruf
+Die statische Methode **build()** erstellt/generiert den Spielplan:
 
 ```php
 $Spielplan = x3m_Spielplan::build($intTeams = 4,
@@ -28,16 +29,17 @@ $Spielplan = x3m_Spielplan::build($intTeams = 4,
                                   $blnSecondRound = true);
 ```
 
+#####Parameter:
 
 PARAMETER |	BESCHREIBUNG
 --------- | ------------
-$intTeams | Anzahl Teams (Spieler)
-$intStartDate | Datum der 1. Paarung
-$intDayOffset | Tage zwischen den Spielpaarungen
-$blnSecondRound | true (default) = mit Rückrunde / false = Paarungen nur für die Vorrunde
+**$intTeams** | Anzahl Teams (Spieler)
+**$intStartDate** | Datum der 1. Paarung
+**$intDayOffset** | Tage zwischen den Spielpaarungen
+**$blnSecondRound** | true (default) = mit Rückrunde / false = Paarungen nur für die Vorrunde
 
  
-
+#####Rückgabewert:
 Der erstellte Spielplan wird als Array() zurückgeliefert:
 
  
@@ -66,6 +68,7 @@ Spielplan Array (
    :
 )
 ```
+
 
 Code Beispiel
 -------------
