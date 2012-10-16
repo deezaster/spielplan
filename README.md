@@ -46,11 +46,11 @@ Spielplan Array (
    [1] => Spieltag 1 (
           [0] => Paarung 1 (
                  [h] => 1  = Heimmannschaft 1
-                 [a] => 4  = Ausw&auml;rtsmannschaft 4
+                 [a] => 4  = Auswaertsmannschaft 4
           )
           [1] => Paarung 2 (
                  [h] => 2  = Heimmannschaft 2
-                 [a] => 3  = Ausw&auml;rtsmannschaft 3
+                 [a] => 3  = Auswaertsmannschaft 3
           )
           [datum] => 20070611  = Datum Spieltag
    )
