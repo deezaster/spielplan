@@ -17,6 +17,9 @@ Einen Spielplan (zB. Spielpaarungen für eine Fussballliga mit Hin- und Rückrun
 
 Um so fröhlicher war ich, als ich beim "googlen" auf die Webseite: <a href="http://www-i1.informatik.rwth-aachen.de/%7Ealgorithmus/liste.php">Algorithmus der Woche</a> gestossen bin. Dank dem <a href="http://www-i1.informatik.rwth-aachen.de/%7Ealgorithmus/algo36.php" >Kantenfärbungs Algorithmus</a> von Juniorprof. Dr. Sigrid Knust konnte ich mein Vorhaben doch noch realisieren.
 
+###Weitere Portierungen###
+- **C++/Qt**: <a href="http://www.piganis.de/2016/09/08/spielplan-berechnung-kantenfaerbung/">Blog</a>-Artikel von Thomas Butzbach (Sourcecode: <a href="https://github.com/thomasbutzbach/SpielplanQtPort">GitHub</a>)
+
 Beschreibung
 -------------
 ###Aufruf
